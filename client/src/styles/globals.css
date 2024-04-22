@@ -1,0 +1,31 @@
+:root {
+	--main-color: #272B33;
+	--second-color: #474C50;
+	--third-color: #E3E2E2;
+
+	--main-size: 12px;
+	--second-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, a {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+  padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
