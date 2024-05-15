@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.searchbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-dark {
+  background-color: transparent;
+  height: 2rem;
+  width: 12rem;
+  border-radius: 10px;
+  border: solid rgb(10, 75, 12) 2px;
+}
+
+.input-light {
+  background-color: transparent;
+  height: 2rem;
+  width: 12rem;
+  border-radius: 10px;
+  border: solid rgb(151, 172, 249) 2px;
+}
+
+input::placeholder {
+  font-family: Freeman;
+  font-weight: 100;
+  color: white;
+}
+
+input:focus {
+  font-family: Freeman;
+  font-weight: 100;
+  color: white;
+}

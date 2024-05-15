@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.background-login {
+  height: 84vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-login {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 4.5rem;
+  padding: 2rem 0 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.button-login-dark {
+  height: 2rem;
+  width: 6rem;
+  border-radius: 6px;
+  background-color: rgb(91, 187, 27);
+  font-family: Freeman;
+  color: white;
+  border: 1px rgb(84, 131, 31) solid;
+}
+
+.button-login-light {
+  height: 2rem;
+  width: 6rem;
+  border-radius: 6px;
+  background-color: rgb(27, 131, 187);
+  font-family: Freeman;
+  color: white;
+  border: 1px rgb(63, 146, 224) solid;
+}
+
+#email {
+  margin-bottom: 2rem;
+}
+
+#password {
+  margin-bottom: 2rem;
+}
+
+label {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Freeman;
+}
+
+.input-login-dark {
+  background-color: transparent;
+  height: 2rem;
+  width: 12rem;
+  border-radius: 10px;
+  border: solid rgb(12, 98, 23) 2px;
+}
+
+.input-login-light {
+  background-color: transparent;
+  height: 2rem;
+  width: 12rem;
+  border-radius: 10px;
+  border: solid rgb(151, 172, 249) 2px;
+}

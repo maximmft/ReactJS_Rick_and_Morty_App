@@ -1,0 +1,23 @@
+.footer-dark {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.footer-light {
+  background-color: rgb(252, 197, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.logo-facebook {
+  height: 3rem;
+}
+
+.light {
+  background-color: white;
+}

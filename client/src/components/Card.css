@@ -1,0 +1,38 @@
+figcaption{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    padding: 1rem 0 3rem 0;
+}
+
+figure{
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.img-card-dark{
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 34px 15px #198526;
+    
+}
+
+.img-card-light{
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 34px 15px #81c7ff;
+    
+}

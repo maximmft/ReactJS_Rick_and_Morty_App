@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+	--primary-color: #272B33;
+	--second-color: #474C50;
+	--third-color: #E3E2E2;
+	
+	--primary-font: "Freeman", sans-serif;
+	--second-font: "Roboto", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #272B33;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, figcaption {
+	margin: 0;
+  font-family: var(--primary-font);
+}
+
+ul {
+	list-style-type: none;
+  padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+}
+
+button, input, a {
+	font-family: var(--second-font);
+}
